@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1300px){
+	.header__wrapper {
+		width: 85vw;
+		margin: auto;
+		padding: 0;
+	}
+	.burger-button {
+		display: flex;
+	}
+	.header__logo-block > .logo__left {
+		height: 47px;
+		margin-right: 10px;
+	}
+	.header__logo-block > .logo__v-line {
+		height: 33px;
+		margin-right: 15px;
+	}
+	.header__logo-block > .logo__right {
+		height: 33px;
+	}
+	.header-nav {
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 1000px){
+	:root {
+		--header-height: 60px;
+	}
+	.header__item {
+		height: 40px;
+	}
+	.header__search-form {
+		display: none;
+	}
+	.to-search__button {
+		display: flex;
+	}
+	.categories__button > .icon {
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 750px){
+	.header__logo-block {
+		display: none;
+	}
+	.to-search__button {
+		margin-right: 12px;
+	}
+}

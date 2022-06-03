@@ -1,0 +1,12 @@
+:root{
+	--main-color: #191919;    /*rgba(30, 25, 40, 1);*/
+	--second-color: #EDE6DD; /*rgba(237, 230, 221, 1);;*/
+	--lighter-color: #7C7272;
+	--bg-color: #FFFFFF;
+	--header-height: 70px;
+	--input-height: 50px;
+	--slide-count: 3;
+	--sliders-margin: 20px;
+	--hover-time: .3s;
+	--anim-time: .8s;
+}

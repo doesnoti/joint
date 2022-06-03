@@ -1,0 +1,17 @@
+.joint-search-result__block {
+	display: flex !important;
+	align-items: center !important;
+	padding: 15px !important;
+	white-space: normal !important;
+}
+.joint-search-result__block:hover {
+	background: #e5e5e5;
+}
+.joint-search-result__text {
+	width: 100% !important;
+	border-bottom: none !important;
+}
+.joint-search-result__img {
+	height: 50px;
+	width: 85px;
+}

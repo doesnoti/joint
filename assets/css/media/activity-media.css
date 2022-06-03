@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1000px){
+	.activity-wrapper {
+		width: 85vw;
+		margin: auto;
+	}
+	.activity__filter-button {
+		display: inline-flex;
+	}
+	.activity__cat-body {
+		display: none;
+	}
+}
+@media only screen and (max-width: 750px){
+	.activity {
+		padding-top: calc(var(--header-height) + 35px);
+	}
+}

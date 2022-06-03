@@ -1,0 +1,112 @@
+.header {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	height: var(--header-height);
+	box-sizing: border-box;
+	transition: background var(--hover-time) ease-out;
+}
+.header.fill {
+	background: var(--second-color);
+}
+.header.animating {
+	transition: transform var(--hover-time) ease-out;
+}
+.header__wrapper {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 0px 1vw;
+}
+.header__item {
+	height: 40px;
+}
+.burger-button {
+	display: none;
+	width: 40px;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.burger-button:hover > .burger-line:nth-child(2) {
+	width: 100%;
+}
+.burger-line {
+	height: 2px;
+	width: 100%;
+	background: var(--main-color);
+	border-radius: 1px;
+}
+.burger-line:nth-child(2) {
+	width: 70%;
+	transition: width var(--hover-time) ease-out;
+}
+.header__logo-block {}
+.header__right {
+	display: flex;
+	align-items: center;
+}
+.header-nav {
+	margin-right: 2vw;
+}
+.header__menu {
+	flex-direction: row;
+	align-items: center;
+}
+.header__menu-item {}
+.header__menu-item:not(:last-child) {
+	margin-bottom: 0;
+	margin-right: 2vw;
+}
+.header__search-form {
+	max-width: 275px;
+	margin-right: 1vw;
+}
+.to-search__button {
+	display: none;
+	width: 40px;
+	font-size: 24px;
+	margin-right: 1vw;
+	margin-left: 10px;
+	transition: var(--hover-time) ease-out;
+	transition-property: width, margin-left;
+}
+.to-search__button:hover {
+	width: 50px;
+	background: transparent;
+	margin-left: 0;
+}
+.header__cat-button-block {
+	height: var(--header-height);
+	display: flex;
+	align-items: center;
+}
+.header__cat-button-block:hover {
+	cursor: pointer;
+}
+.header__cat-button-block:hover > .categories__button {
+	background: var(--bg-color);
+	color: var(--main-color);
+}
+.header__cat-button-block:hover > .categories__button > .icon {
+	transform: rotateZ(180deg);
+}
+.categories__button {
+	font-weight: 500;
+}
+.categories__button>.icon {
+	transition: transform var(--hover-time) ease-out;
+}
+
+/*-----------------------------activity-page----------------------------------*/
+
+.to-main__button {
+	background: var(--bg-color);
+	color: var(--main-color);
+	font-size: 14px;
+}
+.to-main__button:hover {
+	background: rgba(0, 0, 0, .1);
+}

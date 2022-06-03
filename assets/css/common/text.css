@@ -1,0 +1,44 @@
+/*-----------------------------text----------------------------------*/
+
+.text {
+	font-family: Assistant;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	direction: rtl;
+	color: var(--main-color);
+}
+.title {
+	font-family: Assistant;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 130%;
+	direction: rtl;
+	color: var(--main-color);
+}
+.sub-title {
+	font-family: Assistant;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 130%;
+	direction: rtl;
+	color: var(--main-color);
+}
+.icon {
+	font-size: inherit;
+	font-weight: 400;
+	color: inherit;
+}
+.link {
+	text-decoration: none;
+}
+.default-link {
+	font-family: Assistant;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	direction: rtl;
+}
+strong {
+	font-weight: 700;
+}

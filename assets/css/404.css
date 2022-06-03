@@ -1,0 +1,27 @@
+.--404 {
+	background: #BAD7D2;
+	padding-top: calc(var(--header-height) + 500px);
+}
+.--404__block {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: var(--bg-color);
+	border-radius: 8px;
+	padding-top: 65px;
+	padding-bottom: 85px;
+}
+.--404__img {
+	bottom: 100%;
+	height: 400px;
+	width: auto;
+}
+.--404__title {
+	margin-bottom: 15px;
+}
+.--404__sub-title {
+	margin-bottom: 40px;
+}

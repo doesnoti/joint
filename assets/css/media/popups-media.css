@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1000px){
+	/*-----------------------------categories----------------------------------*/
+
+	.cat-popup__block {
+		width: 80vw;
+		min-height: 100vh;
+		border-radius: 0;
+		padding: 0;
+	}
+	
+	/*-----------------------------menu----------------------------------*/
+
+	.menu__logo-left {
+		height: 67px;
+	}
+	.menu__logo-right {
+		height: 33px;
+	}
+}
+@media only screen and (max-width: 750px){
+	/*-----------------------------categories----------------------------------*/
+
+	.cat-popup__title {
+		font-size: 24px;
+	}
+}

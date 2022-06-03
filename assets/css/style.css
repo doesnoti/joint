@@ -1,0 +1,94 @@
+/*
+* Reset browser styles.
+*/
+@import url('reset.css');
+
+/*
+* Connecting fonts.
+*/
+@import url('fonts.css');
+
+/*
+* Variables for styles.
+*/
+@import url('variables.css');
+
+/*
+* Common styles for elements.
+*/
+@import url('common.css');
+
+/*
+* Header styles.
+*/
+@import url('header.css');
+
+/*
+* Custom styles for Ajax search plugin.
+*/
+@import url('joint-search-result.css');
+
+/*
+* Popups styles.
+*/
+@import url('popups.css');
+
+/*
+* Slider styles.
+*/
+@import url('slider.css');
+
+/*
+* Main styles.
+*/
+@import url('main.css');
+
+/*
+* Offer styles.
+*/
+@import url('offer.css');
+
+/*
+* Steps styles.
+*/
+@import url('steps.css');
+
+/*
+* Activity styles.
+*/
+@import url('activity.css');
+
+/*
+* Single post styles.
+*/
+@import url('single-post.css');
+
+/*
+* Contacts styles.
+*/
+@import url('contacts.css');
+
+/*
+* Send styles.
+*/
+@import url('send.css');
+
+/*
+* 404 page styles.
+*/
+@import url('404.css');
+
+/*
+* Footer styles.
+*/
+@import url('footer.css');
+
+/*
+* Modifiers for elements.
+*/
+@import url('modifiers.css');
+
+/*
+* @media.
+*/
+@import url('@media.css');

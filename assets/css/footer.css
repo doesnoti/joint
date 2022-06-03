@@ -1,0 +1,31 @@
+.footer {
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+.footer__links-block {
+	direction: rtl;
+	width: 56.5%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 60px;
+	margin-bottom: 108px;
+	margin-left: auto;
+}
+.footer__links-column {
+	text-align: right;
+}
+.footer-links__title {
+	height: 1.3em;
+	margin-bottom: 19px;
+}
+.footer__links-list {}
+.footer__links-item {}
+.footer__links-item:not(:last-child) {
+	margin-bottom: 20px;
+}
+.footer__bot {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

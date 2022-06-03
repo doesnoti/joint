@@ -1,0 +1,40 @@
+.contacts {
+	background: #B2BDE3;
+	padding-top: calc(var(--header-height) + 373px);
+	padding-bottom: 178px;
+}
+.contacts__img {
+	bottom: 100%;
+	left: 12px;
+	height: 335px;
+	width: auto;
+}
+.contacts__decor {
+	bottom: 100%;
+	right: 63px;
+	height: 150px;
+	width: auto;
+}
+.contacts__title {
+	margin-bottom: 40px;
+}
+.contacts__inputs-block {
+	display: grid;
+	grid-template-columns: 1.55fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 30px;
+	background: inherit;
+	margin-bottom: 30px;
+}
+.contacts__bot {
+	margin-bottom: 55px;
+}
+.contacts__textarea {
+	height: 83px;
+}
+.contacts__middle-block {
+	top: auto;
+	bottom: 0;
+	transform: translate(-50%, 22.9%);
+	background: #B2D3EA;
+}

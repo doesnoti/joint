@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1000px){
+	.contacts__decor {
+		display: none;
+	}
+	.contacts__inputs-block {
+		grid-template-columns: 1fr;
+	}
+}
+@media only screen and (max-width: 750px){
+	.contacts {
+		padding-top: calc(var(--header-height) + 245px);
+		padding-bottom: 195px;
+	}
+	.contacts__img {
+		height: 203px;
+	}
+	.contacts__title {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.contacts__inputs-block {
+		grid-row-gap: 15px;
+		margin-bottom: 15px;
+	}
+	.contacts__bot {
+		margin-bottom: 25px;
+	}
+	.contacts__middle-block {
+		transform: translate(-50%, 14%);
+	}
+}

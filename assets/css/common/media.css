@@ -1,0 +1,40 @@
+/*-----------------------------media----------------------------------*/
+
+.img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.svg {
+	display: block;
+	height: 100%;
+	width: auto;
+	object-fit: contain;
+}
+.video {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.decoration {
+	position: absolute;
+	z-index: -1;
+}
+.logo-block {
+	display: flex;
+	align-items: center;
+}
+.logo__left {
+	height: 54px;
+	margin-right: 20px;
+}
+.logo__v-line {
+	height: 40px;
+	background: #CABAA3;
+	margin-right: 30px;
+}
+.logo__right {
+	height: 40px;
+}

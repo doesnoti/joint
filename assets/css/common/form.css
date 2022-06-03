@@ -1,0 +1,135 @@
+/*-----------------------------form----------------------------------*/
+
+.form {
+	position: relative;
+	background: var(--bg-color);
+	border-radius: 8px;
+	text-align: center;
+	padding: 5.87% 12.22% 5.38% 7.82%;
+}
+.label {
+	cursor: pointer;
+}
+.input {
+	outline: none;
+	height: var(--input-height);
+	width: 100%;
+	background: transparent;
+	box-sizing: border-box;
+	border: 1px solid var(--main-color);
+	border-radius: 3px;
+}
+.input:hover {
+	border: 2px solid #365D7A;
+}
+.input:focus {
+	border: 2px solid #365D7A;
+}
+.input-text {
+	direction: rtl;
+	font-family: Assistant;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 89%;
+	color: var(--main-color);
+	padding: 0px 17px;
+	padding-left: 35px;
+}
+input[type="text"] {
+	direction: rtl;
+}
+.input-text::-webkit-input-placeholder {
+	color: var(--main-color);
+	opacity: 0.5;
+}
+.input-text::-moz-placeholder {
+	color: var(--main-color);
+	opacity: 0.5;
+}
+.input-file {
+	display: none;
+}
+.label-file {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	align-items: center;
+	justify-content: center;
+	background: rgba(237, 230, 221, 0.5);
+	border: 1px dashed #9B9B9B;
+	box-sizing: border-box;
+	border-radius: 8px;
+	font-size: 75px;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.label-file.fill {
+	background: #D3F2ED;
+	border: 1px dashed #9B9B9B;
+}
+.require.void {
+	border: 2px solid #FF2020;
+}
+.require.void ~ .sliding-label {
+	color: #FF2020;
+}
+.textarea {
+	direction: rtl;
+	resize: none;
+	width: 100%;
+	font-family: Assistant;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 89%;
+	color: var(--main-color);
+	padding: 0px 17px;
+	padding-top: 15px;
+}
+.checkbox {
+	display: none;
+}
+.checkmark {
+	height: 20px;
+	width: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+	border: 1px solid #979AA4;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-size: 20px;
+	color: transparent;
+}
+.checkbox:checked + .label > .checkmark {
+	background: #366F90;
+	color: var(--bg-color);
+}
+.form-button {
+	min-width: 308px;
+}
+
+/*-----------------------------sliding-label----------------------------------*/
+
+.sliding-label__block {
+	position: relative;
+	background: inherit;
+}
+.sliding-label {
+	position: absolute;
+	top: calc(var(--input-height) / 2);
+	right: 11px;
+	transform: translateY(-50%);
+	background: inherit;
+	color: rgba(30, 25, 40, .7);
+	pointer-events: none;
+	padding: 5px 7px;
+	transition: var(--hover-time) ease-out;
+	transition-property: top, font-size, right;
+}
+.input:focus ~ .sliding-label,
+.input:not(:placeholder-shown).input:not(:focus) ~ .sliding-label{
+	top: 0;
+	right: 12px;
+	font-size: 12px;
+}

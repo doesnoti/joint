@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1000px){
+	:root{
+		--slide-count: 2;
+		--sliders-margin: 10px;
+	}
+
+}
+@media only screen and (max-width: 750px){
+	:root{
+		--slide-count: 1;
+	}
+	.slider {
+		column-gap: var(--sliders-margin);
+	}
+	.slider__points-block {
+		column-gap: 5px;
+	}
+	/*-----------------------------popular----------------------------------*/
+
+	.popular {
+		padding-bottom: 105px;
+	}
+	.popular__img {
+		height: 202px;
+		transform: rotateZ(200deg) translate(-20%, -60%);
+	}
+}

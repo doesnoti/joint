@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1300px){
+	.lvl-block {
+		flex-direction: column-reverse;
+		align-items: flex-end;
+	}
+}
+@media only screen and (max-width: 1000px){
+	.single__container {
+		grid-template-columns: 1fr;
+	}
+}
+@media only screen and (max-width: 750px){
+	.single__title {
+		margin-bottom: 15px;
+	}
+	.single__article {
+		padding: 30px 10px;
+	}
+	.article__text-block {
+		margin-bottom: 20px;
+	}
+	.materials-block {
+		margin-bottom: 25px;
+	}
+	.materials__list {
+		max-height: 150px;
+	}
+	.article-block:not(:last-child) {
+		margin-bottom: 40px;
+	}
+	.article__content {
+		margin-bottom: 25px;
+	}
+	.single__popular {
+		padding-top: 210px;
+	}
+}

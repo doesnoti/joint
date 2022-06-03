@@ -1,0 +1,24 @@
+/*-----------------------------search-block----------------------------------*/
+
+.search-form {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.search__input {
+	overflow: hidden;
+	width: 100%;
+	border-radius: 30px;
+	box-sizing: border-box;
+	padding-left: 55px;
+}
+.search__button {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	font-size: 24px;
+}
+.search__clear-button {
+	left: 45px;
+	padding: 0;
+}

@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'Assistant';
+    src: url('../fonts/Assistant-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+	font-family: 'Assistant';
+    src: url('../fonts/Assistant-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'joint';
+  src:  url('../fonts/joint.eot?c26qbw');
+  src:  url('../fonts/joint.eot?c26qbw#iefix') format('embedded-opentype'),
+    url('../fonts/joint.ttf?c26qbw') format('truetype'),
+    url('../fonts/joint.woff?c26qbw') format('woff'),
+    url('../fonts/joint.svg?c26qbw#joint') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'joint' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.joint-upload-fill:before {
+  content: "\e909";
+}
+.joint-upload:before {
+  content: "\e908";
+}
+.joint-filter:before {
+  content: "\e907";
+}
+.joint-close:before {
+  content: "\e905";
+}
+.joint-check:before {
+  content: "\e900";
+}
+.joint-chevron--up:before {
+  content: "\e901";
+}
+.joint-chevron--down:before {
+  content: "\e902";
+}
+.joint-chevron--right:before {
+  content: "\e903";
+}
+.joint-chevron--left:before {
+  content: "\e904";
+}
+.joint-search:before {
+  content: "\e906";
+}

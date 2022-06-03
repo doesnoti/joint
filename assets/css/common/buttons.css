@@ -1,0 +1,100 @@
+/*-----------------------------buttons----------------------------------*/
+
+.button {
+	outline: none;
+	border: none;
+	-webkit-tap-highlight-color: transparent;
+	flex-shrink: 0;
+	height: 52px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--main-color);
+	font-size: 16px;
+	font-weight: 700;
+	color: var(--bg-color);
+	cursor: pointer;
+	border-radius: 40px;
+	padding: 0px 20px;
+	transition: var(--hover-time) ease-out;
+	transition-property: background, color;
+}
+.button:hover {
+	background: rgba(30, 25, 40, .75);
+}
+.transp-button {
+	background: transparent;
+	color: var(--main-color);
+	box-sizing: border-box;
+	padding: 10px;
+}
+.transp-button:hover {
+	background: transparent;
+}
+.border-button {
+	background: transparent;
+	color: var(--main-color);
+	box-sizing: border-box;
+	border: 1px solid var(--main-color);
+}
+.border-button:hover {
+	background: rgba(0, 0, 0, .1);
+}
+.button-text {
+	font-family: Assistant;
+	font-size: 18px;
+	line-height: 178%;
+	letter-spacing: 0.75px;
+	color: inherit;
+	white-space: nowrap;
+	direction: rtl;
+	transition: color var(--hover-time) ease-out;
+}
+.clear-button {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	font-size: 11px;
+	color: #757895;
+	padding: 0 18px;
+	opacity: 0;
+	visibility: hidden;
+	transition: var(--hover-time) ease-out .01s;
+	transition-property: opacity, visibility;
+}
+.clear-button:hover {
+	color: var(--main-color);
+}
+.input-text:focus ~ .clear-button {
+	opacity: 1;
+	visibility: visible;
+}
+.arrow-button {
+	height: 48px;
+	width: 48px;
+	background: var(--bg-color);
+	border-radius: 50%;
+	font-size: 36px;
+	color: #365D7A;
+	padding: 0;
+}
+.arrow-button:hover {
+	background: #365D7A;
+	color: var(--bg-color);
+}
+.arrow-button > .joint-chevron--left {
+	transform: translateX(-5%);
+}
+.arrow-button > .joint-chevron--right {
+	transform: translateX(5%);
+}
+.reset-button {
+	border-radius: 0;
+	height: 32px;
+	font-size: 12px;
+	margin-bottom: 25px;
+}
+.reset-button > .button-text {
+	font-size: 16px;
+}

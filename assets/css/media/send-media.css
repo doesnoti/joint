@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1000px){
+	.send__decor {
+		display: none;
+	}
+	.send__inputs-block {
+		grid-template-columns: 1fr;
+	}
+	.send__textarea-block {
+		height: 22vw;
+		min-height: 90px;
+		grid-row: 3 / 4;
+	}
+}
+@media only screen and (max-width: 750px){
+	.send {
+		padding-top: calc(var(--header-height) + 210px);
+	}
+	.send__img {
+		height: 179px;
+	}
+	.send__inputs-block {
+		grid-row-gap: 15px;
+		margin-bottom: 10px;
+	}
+	.send__title {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.send__file-block {
+		margin-bottom: 25px;
+	}
+}

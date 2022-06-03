@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1000px){
+	.footer__links-block {
+		width: 100%;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media only screen and (max-width: 750px){
+	.footer__bot {
+		flex-direction: column;
+		align-items: flex-end;
+		row-gap: 26px;
+	}
+}

@@ -1,0 +1,87 @@
+.text--fz-14 {
+	font-size: 14px;
+}
+.text--fz-16 {
+	font-size: 16px;
+}
+.text--fz-18 {
+	font-size: 18px;
+}
+.text--fz-22 {
+	font-size: 22px;
+}
+.text--fz-24 {
+	font-size: 24px;
+}
+.text--fz-28 {
+	font-size: 28px;
+}
+.text--fz-32 {
+	font-size: 32px;
+}
+.text--fz-46 {
+	font-size: 46px;
+}
+
+.text--fw-700 {
+	font-weight: 700;
+}
+
+.text--td-ul {
+	text-decoration: underline;
+}
+
+/*-----------------------------color----------------------------------*/
+
+.text--c-inh {
+	color: inherit;
+}
+
+/*-----------------------------margins----------------------------------*/
+
+.block--mr-8 {
+	margin-right: 8px;
+}
+.block--mr-16 {
+	margin-right: 16px;
+}
+.block--mr-20 {
+	margin-right: 20px;
+}
+.block--mr-30 {
+	margin-right: 30px;
+}
+.block--mb-15 {
+	margin-bottom: 15px;
+}
+.block--mb-20 {
+	margin-bottom: 20px;
+}
+
+/*-----------------------------blocks----------------------------------*/
+
+.cloud--small {
+	height: 34px;
+	width: auto;
+}
+.cloud--big {
+	height: 48px;
+	width: auto;
+}
+
+/*-----------------------------categories----------------------------------*/
+
+.category--garden { background: #A2E283; }
+.category--food { background: #FFEB84; }
+.category--art { background: #A0EEFF; }
+.category--book { background: #FF9696; }
+.category--cognitive { background: #FFB26B; }
+.category--sport { background: #DBE7EF; }
+.category--motoric { background: #FFA992; }
+.category--daily { background: #CED891; }
+.category--computer { background: #AAADFF; }
+.category--religion { background: #FFC2C2; }
+.category--sense { background: #CACACA; }
+.category--memory { background: #F1CFB0; }
+.category--music { background: #92C7ED; }
+.category--photo { background: #B5DBD5; }

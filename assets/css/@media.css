@@ -1,0 +1,69 @@
+/*
+* Common media styles.
+*/
+@import url('media/common-media.css');
+
+/*
+* Modifiers media styles.
+*/
+@import url('media/modifiers-media.css');
+
+/*
+* Header media styles.
+*/
+@import url('media/header-media.css');
+
+/*
+* Slider media styles.
+*/
+@import url('media/slider-media.css');
+
+/*
+* Popups media styles.
+*/
+@import url('media/popups-media.css');
+
+/*
+* Mainpage media styles.
+*/
+@import url('media/mainpage-media.css');
+
+/*
+* Offer media styles.
+*/
+@import url('media/offer-media.css');
+
+/*
+* Steps media styles.
+*/
+@import url('media/steps-media.css');
+
+/*
+* Activity media styles.
+*/
+@import url('media/activity-media.css');
+
+/*
+* Single post media styles.
+*/
+@import url('media/single-post-media.css');
+
+/*
+* Contacts media styles.
+*/
+@import url('media/contacts-media.css');
+
+/*
+* Send media styles.
+*/
+@import url('media/send-media.css');
+
+/*
+* 404 page media styles.
+*/
+@import url('media/404-media.css');
+
+/*
+* Footer media styles.
+*/
+@import url('media/footer-media.css');
